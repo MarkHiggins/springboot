@@ -1,0 +1,13 @@
+#server:
+#  port: 8089
+#
+#
+#person:
+#  id: 01
+#  username: liben
+#  gander: male
+#  bitrhday: 19920616
+#
+#dog:
+#  username: jenny
+#  password: ${person.bitrhday}
