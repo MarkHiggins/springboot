@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.fujitsu.*")
+@ComponentScan("com.fujitsu.controller")
 public class SpringbootApplication {
 
     public static void main(String[] args) {
