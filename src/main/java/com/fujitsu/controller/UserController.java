@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping( value = "/user", produces = "application/json")
+
 public class UserController {
 
     @PostMapping("/login")
