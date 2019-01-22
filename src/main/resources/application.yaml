@@ -11,3 +11,8 @@
 #dog:
 #  username: jenny
 #  password: ${person.bitrhday}
+#spring:
+#  profiles:
+#    active:
+
+---
