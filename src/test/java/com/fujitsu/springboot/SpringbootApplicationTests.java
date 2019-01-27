@@ -17,6 +17,7 @@ public class SpringbootApplicationTests {
 
     @Autowired
     private Dog dog;
+
     @Test
     public void contextLoads() {
         System.out.println(person);

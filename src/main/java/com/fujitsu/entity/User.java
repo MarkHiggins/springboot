@@ -3,13 +3,16 @@ package com.fujitsu.entity;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.stereotype.Component;
 
+/**
+ * User实体类
+ */
 @Component("user")
 public class User {
 
-    @JsonProperty("user")
+    @JsonProperty("username")
     private String username;
 
-    @JsonProperty("pass")
+    @JsonProperty("password")
     private String password;
 
     public String getUsername() {

@@ -8,20 +8,21 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * UserController
+ */
 @RestController
 @RequestMapping( value = "/user", produces = "application/json")
-
 public class UserController {
 
     @PostMapping("/login")
     public String login(
-            @RequestBody User user, HttpServletRequest request) {
-        String queryString = request.getQueryString();
+            @RequestBody User user){
 
 //        System.out.println(queryString);
 //        System.out.println(username);
 //        System.out.println(password);
         System.out.println(user);
-        return user.toString();
+        return "user";
     }
 }
